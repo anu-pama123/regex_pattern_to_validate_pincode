@@ -15,8 +15,8 @@ public class PinCodeValidateBuilder
     }
     public static void main(String[] args)
     {
-        String input = "400088";
-        String patternNum = "^[0-9]{6}$";
+        String input = "A400088";
+        String patternNum = "^[^A-Za-z][0-9]{5}$";
         outputChecker(checkPattern(input, patternNum));
     }
     private static void outputChecker(boolean checkPattern)
