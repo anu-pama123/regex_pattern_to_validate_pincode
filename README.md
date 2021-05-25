@@ -1,0 +1,1 @@
+# regex_pattern_to_validate_pincode
